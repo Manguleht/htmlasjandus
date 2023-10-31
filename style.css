@@ -1,0 +1,48 @@
+#pealkiri {
+    color: blue;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.lehe-tekst {
+    color: green;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#pilt {
+    border: 2px solid #000;
+    box-shadow: 5px 5px 5px #888;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #ccc;
+    font-weight: bold;
+    border: 1px solid #000;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+.jaotamise-pealkiri {
+    text-align: center;
+    font-size: 20px;
+}
+
+.jaotamise-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.jaotamise-tulp {
+    border: 1px solid #000;
+    padding: 10px;
+}
